@@ -1,16 +1,19 @@
+@'
 <!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
   <title>Página 1</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; padding-top: 50px; }
+    button { margin: 10px; padding: 10px 20px; font-size: 18px; cursor: pointer; }
+  </style>
 </head>
 <body>
-  <h1>Página 1</h1>
-  <p>Contenido a editar por el miembro 1 del equipo.</p>
-  <img src="image.png" alt="imagen">
-  <section>
-    <h1>Sección</h1>
-    <p>Hola mundo</p>
-  </section>
+  <h1>Página 1 - Miembro 1</h1>
+  <p>Esta es la página creada por el líder del equipo.</p>
+  <p>Proyecto colaborativo Git - Guía N° 5</p>
+  <button onclick="location.href='index.html'">Volver al inicio</button>
 </body>
 </html>
+'@ | Set-Content pagina1.html -Encoding UTF8
